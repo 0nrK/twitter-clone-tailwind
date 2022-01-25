@@ -8,8 +8,8 @@ import Timeline from './components/Timeline';
 function App() {
   return (
     <main className="max-w-screen-2xl flex flex-row h-screen mx-auto">
-      <Sidebar  />
-      <section className='container '>
+      <Sidebar />
+      <section className='container  '>
         <ContainerHeading />
         <Tweet />
         <Tweet />
@@ -19,7 +19,7 @@ function App() {
 
       </section>
       <section className='timeline'>
-        <Timeline/>
+        <Timeline />
       </section>
     </main>
   );
